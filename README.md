@@ -21,6 +21,12 @@ as well as comparing the IP address (boolean) and changes the URL if needed.
 
 This list is then returned to the user in a JSON format for utilizing on their part.
 
+Steps for running the application:
+
+* Pull git
+* Install pip uvicorn, requests
+* Run **uvicorn main:app --reload**
+
 Example:
 
 Query is made to the API: **/clips/covid**
