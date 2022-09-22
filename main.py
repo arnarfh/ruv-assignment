@@ -8,7 +8,6 @@ from fastapi import FastAPI, Request
 # Local impors
 from ip_ranges import ICELANDIC_IP_RANGE
 
-print(ICELANDIC_IP_RANGE)
 
 def get_current_endpoint_data_json():
     """ Fetches the episode list from the RÚV api """
